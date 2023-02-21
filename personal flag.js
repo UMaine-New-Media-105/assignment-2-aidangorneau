@@ -21,6 +21,11 @@ function draw() {
   crosses(425, 300)
   //calling the algerian symbol function to put in the moon and star ontop of everything else
   algSymbol(300, 200)
+  //the red stripes of the Georgian flag connecting to the moon
+  fill("red")
+  rect(275, 0, 50, 120)
+  rect(275, 280, 50, 120)
+  rect(0, 175, 220, 50)
   
 }
 //the function which makes the basic cross at any location
